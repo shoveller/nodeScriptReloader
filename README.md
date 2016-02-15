@@ -9,6 +9,3 @@ npm insrall
 ```
 gulp
 ```
-
-###실행화면  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tifL7oyqmQE" frameborder="0" allowfullscreen></iframe>
