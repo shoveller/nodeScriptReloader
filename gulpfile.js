@@ -5,7 +5,7 @@ var shell = require('gulp-shell');
 gulp.task('watch', ()=> {
 	gulp.watch('tests/*.js',(file)=>{
 		console.log('===%s====',file.path.replace(__dirname,''));
-		gulp.src(file.path, {read: false})
+		return gulp.src(file.path, {read: false})
 			.pipe(shell([
 				'node <%= file.path %>'
 			]));
